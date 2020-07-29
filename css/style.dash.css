@@ -6,6 +6,10 @@ body {
   margin-bottom: 0;
   border-radius: 0;
 }
+. {
+  color: red;
+  border-radius: 0.5rem !important;
+}
 
 /* Navbar */
 .navbar-nav > li > a,
@@ -13,6 +17,8 @@ body {
   padding-top: 6px !important;
   padding-bottom: 5px !important;
   height: 33px;
+  border-radius: 1rem;
+  color: white;
 }
 .navbar {
   background-color: #9b59b6;
@@ -50,7 +56,7 @@ body {
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
   color: #ecdbff;
-  background-color: #8e44ad;
+  background-color: white;
 }
 .navbar .navbar-toggle {
   border-color: #8e44ad;
@@ -72,6 +78,36 @@ body {
 .navbar .navbar-link:hover {
   color: #ecdbff;
 }
+.modal-header {
+  background-color: lawngreen;
+  margin: 10px;
+}
+.form-group {
+  background-color: lawngreen;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0.5rem;
+}
+.checbox {
+  padding: 5px;
+  margin: 15px;
+  border: 20px;
+}
+.modal-footer {
+  padding: 10px;
+  margin: 10px;
+}
+.card-heading {
+  padding: 7px;
+  margin: 10px;
+  border-radius: 0.5rem;
+}
+.dash-box {
+  background-color: whitesmoke;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 0.5rem;
+}
 
 @media (max-width: 575px) {
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -88,9 +124,9 @@ body {
 }
 /*Custom */
 .main-color-bg {
-  background-color: #8e44ad;
-  border-color: #9b59b6 !important;
-  color: aqua;
+  background-color: #8e44ad !important;
+  border-color: grey !important;
+  color: white !important;
 }
 
 /* Header*/
@@ -113,6 +149,27 @@ body {
   color: #333333;
 }
 
+/* Progress Bars*/
+.progress-bar {
+  background: #333333;
+  color: #ffffff;
+}
+
+.dash-box {
+  text-align: center;
+}
+#login {
+  margin-top: 30px;
+}
+
+/*Footer*/
+#footer {
+  background: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+}
 @media (max-width: 767px) {
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ecf0f1;
